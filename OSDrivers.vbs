@@ -3,7 +3,8 @@
 ' This script, macro, and other code examples for illustration only, without warranty either expressed or implied, including but not
 ' limited to the implied warranties of merchantability and/or fitness for a particular purpose. This script is provided 'as is' and the Author does not
 ' guarantee that the following script, macro, or code can be used in all situations.
-
+'
+' I am not a scripting expert . . . my apologies for any mistakes - David
 '============================================================================================== DECLARATIONS
 
 	Option Explicit
@@ -20,8 +21,8 @@
 	Const Reference			=	""
 
 	Const Title 			=	"OSDrivers"
-	Const Version 			=	20180131
-	Const VersionFull 		=	20180131.01
+	Const Version 			=	20180209
+	Const VersionFull 		=	20180209.01
 	Dim TitleVersion		:	TitleVersion = Title & " (" & Version & ")"
 
 '============================================================================================== SYSTEM CONSTANTS
@@ -37,25 +38,6 @@
 	Const HKEY_USERS			= 	&H80000003
 	Const HKEY_CURRENT_CONFIG	= 	&H80000005
 
-'============================================================================================== INI or TXT File
-	'[OSDrivers]
-	'Source = SELF				(Copies the Directory the INI file is in)
-	'Source = Something.cab		(File in the same Directory as the INI)
-	'
-	'OperatingSystem = All
-	'Windows 7 x86 = No
-	'Windows 7 x64 = No
-	'Windows 10 x86 = No
-	'Windows 10 x64 = Yes
-	'
-	'
-	'
-	'
-
-
-
-	
-	
 '============================================================================================== OBJECTS
 
 	Dim objComputer				: 	objComputer				=	"."
